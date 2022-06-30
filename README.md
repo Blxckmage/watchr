@@ -1,2 +1,1 @@
-# blxckmage.github.io
-# watchr
+# Watchr -- Online Streaming Services
