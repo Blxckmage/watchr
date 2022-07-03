@@ -1,3 +1,6 @@
+/* Import Font */
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto&display=swap');
+
 /* CSS RESET */
 * {
     * box-sizing: border-box;
@@ -8,11 +11,15 @@
 
 :root {
     --main-color: #1DB954;
-    --main-bg-color: #191414;
+    --main-bg-color: #000;
+}
+
+.title {
+    font-family: 'Bebas Neue', cursive;
 }
 
 body {
-    font-family: 'Arial', sans-serif;
+    font-family: 'Roboto', sans-serif;
     -webkit-font-smoothing: antialiased;
     background: var(--main-bg-color);
     color: #999;
@@ -161,6 +168,17 @@ p {
     color: #fff;
 }
 
+/* Hide content */
+#tab-1-content,
+#tab-2-content,
+#tab-3-content {
+    display: none;
+}
+
+.show {
+    display: block !important;
+}
+
 #tab-1-content .tab-1-content-inner {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -209,6 +227,7 @@ none   margin-top: 2rem;
     margin: 1rem auto;
     overflow: auto;
 }
+
 
 .footer, .footer a {
     color: #999;
@@ -298,6 +317,10 @@ none   margin-top: 2rem;
     font-size: 1rem;
     text-transform: uppercase;
     padding: 0.8rem 1.3rem;
+}
+
+.btn-icon {
+    margin-left: 1rem;
 }
 
 @media(max-width: 960px;) {
