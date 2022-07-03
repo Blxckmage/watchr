@@ -13,15 +13,11 @@
 - HTML
 - CSS
 - JS
+
 ## Author
 
 **Faza Zikri**
 
 - [Profile](https://github.com/Blxckmage "Faza Zikri")
-- [Instagram](https://www.instagram.com/fxzaaa/ "Hi!")
-
-## 🤝 Support
-
-Contributions, issues, and feature requests are welcome!
-
-Give a ⭐️ if you like this project!
+- [Instagram](https://www.instagram.com/fxzaaa)
+- Discord : faz#8303
